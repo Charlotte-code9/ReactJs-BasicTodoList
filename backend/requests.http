@@ -25,6 +25,9 @@ DELETE http://localhost:8081/api/cart
 GET http://localhost:8081/todos
 
 ###
+GET http://localhost:8081/todos/2
+
+###
 POST http://localhost:8081/todos
 Content-Type: application/json
 
