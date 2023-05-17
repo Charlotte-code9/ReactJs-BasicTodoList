@@ -32,7 +32,7 @@ POST http://localhost:8081/todos
 Content-Type: application/json
 
 {
-  "id": 123,
+  "_id": 123,
   "task": "Make a wish",
   "checked": false
 }
@@ -47,7 +47,7 @@ Content-Type: application/json
 
 ###
 
-PATCH http://localhost:8081/todos/1
+PATCH http://localhost:8081/todos/123
 Content-Type: application/json
 
 {
@@ -55,7 +55,7 @@ Content-Type: application/json
 }
 
 ###
-PATCH http://localhost:8081/todos/1
+PATCH http://localhost:8081/todos/123
 Content-Type: application/json
 
 {
