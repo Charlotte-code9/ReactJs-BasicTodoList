@@ -32,8 +32,8 @@ POST http://localhost:8081/todos
 Content-Type: application/json
 
 {
-  "_id": 123,
-  "task": "Make a wish",
+  "_id": 124,
+  "task": "Clean House",
   "checked": false
 }
 

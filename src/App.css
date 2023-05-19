@@ -77,6 +77,22 @@ header h2 a {
   flex: 0 1 calc(80% - 0.5rem);
   margin-right: 0.5rem;
 }
+.filtering button {
+  cursor: pointer;
+  height: 2.5rem;
+  width: 5.5rem;
+  border-radius: 0.5rem;
+  align-items: center;
+  margin-left: 20px;
+
+  
+  font-weight: 500;
+  border: none;
+
+
+  color: var(--white);
+  background-color: var(--blue);
+}
 
 .new-todo button {
   cursor: pointer;
